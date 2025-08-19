@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <!-- bootstrap cdn -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+
+    <link rel="stylesheet" href="./css/style.css">
+
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <!-- ========== main nav start ========== -->
+    <nav class="navbar main-nav navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand brand-logo" href="#"><img src="https://projectmanagement.com.co/image/logo/Logo-01.png-16320.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <a href="#" class="btn nav-cont-btn d-lg-block d-none">Contact</a>
+        </div>
+    </nav>
+    <!-- ========== main nav end ========== -->
+
+
+    <!-- ========== hero slider part start ========== -->
+    <section class="hero-slider">
+        <ul class="hero-slider-list">
+            <li class="hero-slide" style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://projectmanagement.com.co/image/banner/13427.jpg')">
+            <div class="hero-slide-content">
+                <h2 class="hero-title">"Lossless Youths"</h2>
+                <p class="hero-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                praesentium nisi. Id laboriosam ipsam enim.
+                </p>
+                <button class="hero-btn">Read More</button>
+            </div>
+            </li>
+
+            <li class="hero-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://projectmanagement.com.co/image/banner/58036.jpg')">
+            <div class="hero-slide-content">
+                <h2 class="hero-title">"Estrange Bond"</h2>
+                <p class="hero-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                praesentium nisi. Id laboriosam ipsam enim.
+                </p>
+                <button class="hero-btn">Read More</button>
+            </div>
+            </li>
+
+            <li class="hero-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://projectmanagement.com.co/image/banner/81655.jpg')">
+            <div class="hero-slide-content">
+                <h2 class="hero-title">"The Gate Keeper"</h2>
+                <p class="hero-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                praesentium nisi. Id laboriosam ipsam enim.
+                </p>
+                <button class="hero-btn">Read More</button>
+            </div>
+            </li>
+
+            <li class="hero-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://projectmanagement.com.co/image/banner/13427.jpg')">
+            <div class="hero-slide-content">
+                <h2 class="hero-title">"Lossless Youths"</h2>
+                <p class="hero-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                praesentium nisi. Id laboriosam ipsam enim.
+                </p>
+                <button class="hero-btn">Read More</button>
+            </div>
+            </li>
+
+            <li class="hero-slide" style="background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://projectmanagement.com.co/image/banner/58036.jpg')">
+            <div class="hero-slide-content">
+                <h2 class="hero-title">"Estrange Bond"</h2>
+                <p class="hero-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                praesentium nisi. Id laboriosam ipsam enim.
+                </p>
+                <button class="hero-btn">Read More</button>
+            </div>
+            </li>
+
+            <li class="hero-slide" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://projectmanagement.com.co/image/banner/81655.jpg')">
+            <div class="hero-slide-content">
+                <h2 class="hero-title">"The Gate Keeper"</h2>
+                <p class="hero-description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore fuga voluptatum, iure corporis inventore
+                praesentium nisi. Id laboriosam ipsam enim.
+                </p>
+                <button class="hero-btn">Read More</button>
+            </div>
+            </li>
+        </ul>
+
+        <nav class="hero-slider-nav">
+            <ion-icon class="hero-btn prev" name="arrow-back-outline"></ion-icon>
+            <ion-icon class="hero-btn next" name="arrow-forward-outline"></ion-icon>
+        </nav>
+    </section>
+    <!-- ========== hero slider part end ========== -->
+
+    
+    <!-- ========== intro part start ========== -->
+    <section class="iapmc-intro">
+        <div class="container">
+            <div class="iapmc-intro-box">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="icon text-center">
+                            <div class="icon-link">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                        </div>
+                        <h4 class="box-header text-center text-white">Accreditation</h4>
+                        <p class="text-center text-white">Become Accredited Institute to accelerate your Project Management related education & training</p>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="icon text-center">
+                            <div class="icon-link">
+                                <i class="fa-solid fa-award"></i>
+                            </div>
+                        </div>
+                        <h4 class="box-header text-center text-white">Professional Credential</h4>
+                        <p class="text-center text-white">Become Certified Professional by IAPMC to accelerate your professional career globally</p>
+                    </div>
+                    <div class="col-md-4">
+                         <div class="icon text-center">
+                            <div class="icon-link">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                        </div>
+                        <h4 class="box-header text-center text-white">About Us</h4>
+                        <p class="text-center text-white">Join one of the largest professional community of Project Management experts across the globe</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========== intro part end ========== -->
+
+
+
+    <!-- ========== iapmc values section start ========== -->
+    <section class="iapmc-values">
+        <div class="container">
+
+            <div class="section-header">
+                <h2>What We Values</h2>
+            </div>
+
+            <div class="iapmc-value-wrapper">
+
+                <div class="row">
+
+                    <div class="col-md-3">
+                        
+                        <div class="e-card playing">
+                            <div class="image"></div>
+                            
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            
+
+                                <div class="infotop">
+
+                                    <div class="icon">
+                                        <h3 class="mb-0"><i class="fa-solid fa-signal"></i></h3>
+                                    </div>
+                                    <h4 class="box-header">Quality</h4>
+                                    <p>IAPMC’s primary focus is Quality. IAPMC maintains highest quality in Education, Certification & Professional Credential</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        
+                        <div class="e-card playing">
+                            <div class="image"></div>
+                            
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            
+
+                                <div class="infotop">
+
+                                    <div class="icon">
+                                        <h3 class="mb-0"><i class="fa-solid fa-dollar-sign"></i></h3>
+                                    </div>
+                                    <h4 class="box-header">Affordability</h4>
+                                    <p>Education, Certification & Professional Credential is for everyone. IAPMC ensures best fees which is affordable to all</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        
+                        <div class="e-card playing">
+                            <div class="image"></div>
+                            
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            
+
+                                <div class="infotop">
+
+                                    <div class="icon">
+                                        <h3 class="mb-0"><i class="fa-solid fa-globe"></i></h3>
+                                    </div>
+                                    <h4 class="box-header">Acceptability</h4>
+                                    <p>IAPMC’s education, certification and professional credentials are widely accepted by corporates</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        
+                        <div class="e-card playing">
+                            <div class="image"></div>
+                            
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            <div class="wave"></div>
+                            
+
+                                <div class="infotop">
+
+                                    <div class="icon">
+                                        <h3 class="mb-0"><i class="fa-solid fa-clock"></i></h3>
+                                    </div>
+                                    <h4 class="box-header">Availability</h4>
+                                    <p>IAPMC ensures convenience for professionals. Programs are easily accessible at anytime from anywhere</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ========== iapmc values section end ========== -->
+
+
+    <!-- ================ accrediation section start here ================ -->
+    <section class="iapmc-accr">
+        <div class="container">
+
+            <div class="row align-items-center iapmc-cred-row">
+
+                <div class="col-md-6 d-flex align-items-center justify-content-center mt-md-0 mt-5">
+                    <img src="./images/accr-img.webp" alt="accrediation image">
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="accr-subtitle">
+                        <h5 class="text-md-start text-center">Level Of Professional Credential</h5>
+                    </div>
+                    <div class="accr-title">
+                        <h2 class="mb-0 text-md-start text-center">Our Credential</h2>
+                    </div>
+                    <p class="text-md-start text-center">A certification in project management will mean that you are experienced enough to lead & execute a project. The delegate will gain knowledge of tools and models used in project planning, execution, and assessment and an understanding of the many dynamics and roles involved in effective project management. Once you pass the test, you will be issued Certificate and digital badge. Both can be verified through portal.</p>
+                    <div class="text-md-start text-center">
+                        <a href="#" class="btn myBtn">All Credentials</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ================ accrediation section end here ================ -->
+
+
+    <!-- ================ credential section start here ================ -->
+    <section class="iapmc-accr">
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-md-6">
+                    <div class="accr-subtitle">
+                        <h5 class="text-md-start text-center">Get Your Institution Accredited</h5>
+                    </div>
+                    <div class="accr-title">
+                        <h2 class="mb-0 text-md-start text-center">Accreditation</h2>
+                    </div>
+                    <p class="text-md-start text-center">International Authority for Project Management Certification (IAPMC) offers accreditation support...</p>
+                    <div class="text-md-start text-center">
+                        <a href="#" class="btn myBtn">All Accrediation</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 d-flex align-items-center justify-content-center mt-md-0 mt-5">
+                    <img src="./images/accr-two.webp" alt="accrediation image">
+                </div>
+    
+                
+
+            </div>
+
+        </div>
+    </section>
+    <!-- ================ credential section end here ================ -->
+
+
+    <!-- ================ footer section start ================  -->
+    <footer>
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-4 d-flex align-items-center flex-column">
+                    <img src="./images/footer-Logo.webp" class="img-fluid footer-logo" alt="">
+                    <h5 class="footer-logo-title text-uppercase">BETTER WAY TO LEARN & GROW</h5>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="footer-col-header">
+                        <h4 class="text-md-start text-center mt-md-0 mt-4">Quick Links</h4>
+                    </div>
+
+                    <ul class="footer-menu-link ps-0">
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; About</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Credential</a></li>
+                        <li><a href="#"><i class="fa-solid fa-angle-right"></i> &nbsp; Accrediation</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="footer-col-header">
+                        <h4 class="text-md-start text-center mt-md-0 mt-4">Get in Touch</h4>
+                    </div>
+
+                    <ul class="footer-social-link ps-0">
+                        <li><a href="#"><i class="fa-solid fa-envelope"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+
+                
+            </div>
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6">
+                    <p class="mb-0 text-md-start text-center">&copy; <span class="bottom-footer-year"></span> IAPMC – International Authority for Project Management Certification</p>
+                </div>
+
+                <div class="col-md-6 text-md-start text-center mt-md-0 mt-2">
+                    <a href="#">Privacy & Return Policy</a>
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
+    <!-- ================ footer section end ================  -->
+
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+    </script>
+    <!-- bootstrap cdn -->
+
+    <!-- font awesome cdn -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js"
+        integrity="sha512-b+nQTCdtTBIRIbraqNEwsjB6UvL3UEMkXnhzd8awtCYh0Kcsjl9uEgwVFVbhoj3uu1DO1ZMacNvLoyJJiNfcvg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- font awesome cdn -->
+
+    <!-- ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- ionicons -->
+
+    <!-- gsap -->
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <!-- gsap -->
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
