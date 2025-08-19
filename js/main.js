@@ -61,27 +61,7 @@ document.addEventListener('scroll', ()=>{
   }
 })
 
-//testimonial slider
 
-document.addEventListener('DOMContentLoaded', function() {
-  // Initialize FlexSlider (if it's still needed, otherwise use a vanilla JS slider)
-  // Since FlexSlider is a jQuery plugin, we'll assume you replace it with a vanilla alternative like Glide.js, Swiper.js, or TinySlider.
-  // Example with a basic slider setup (replace with your preferred library):
-  if (document.querySelector('.cd-testimonials-wrapper')) {
-    // Initialize TinySlider for testimonials
-    tns({
-      container: '.cd-testimonials',
-      items: 1,
-      slideBy: 'page',
-      controls: true,
-      nav: true,
-      autoplay: true,
-      autoplayButtonOutput: false
-    });
-  }
-
-  
-});
 
 // testimonial swiper slider
 new Swiper('.all-testimonial', {
