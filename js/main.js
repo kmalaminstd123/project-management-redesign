@@ -60,3 +60,37 @@ document.addEventListener('scroll', ()=>{
     mainNav.style.background = 'rgba(255, 255, 255, 0.3)'
   }
 })
+
+//testimonial slider
+
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize FlexSlider (if it's still needed, otherwise use a vanilla JS slider)
+  // Since FlexSlider is a jQuery plugin, we'll assume you replace it with a vanilla alternative like Glide.js, Swiper.js, or TinySlider.
+  // Example with a basic slider setup (replace with your preferred library):
+  if (document.querySelector('.cd-testimonials-wrapper')) {
+    // Initialize TinySlider for testimonials
+    tns({
+      container: '.cd-testimonials',
+      items: 1,
+      slideBy: 'page',
+      controls: true,
+      nav: true,
+      autoplay: true,
+      autoplayButtonOutput: false
+    });
+  }
+
+  
+});
+
+// testimonial swiper slider
+new Swiper('.all-testimonial', {
+  slidesPerView: 1,
+  autoplay: {
+    delay: 3000
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+})

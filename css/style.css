@@ -582,6 +582,43 @@ body {
 /* ================ accrediation section end here ================  */
 
 
+
+/* ================ testimonial section start here ================  */
+
+.testimonial{
+  margin: var(--section-space);
+}
+
+.all-testimonial{
+  max-width: 992px;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.testimonial-box{
+  text-align: center;
+  background: linear-gradient(13deg, var(--secondery-color), var(--primary-color));
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.testimonial-text{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.testimonial-user{
+  color: #fff;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+  font-size: 20px;
+}
+
+/* ================ testimonial section end here ================  */
+
+
 /* ================ footer section start here ================  */
 
 footer{
