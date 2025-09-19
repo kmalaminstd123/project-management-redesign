@@ -1,3 +1,5 @@
+
+
 // loader js
 const loader = document.querySelector('.loader')
 
@@ -77,10 +79,10 @@ new Swiper('.all-testimonial', {
   autoplay: {
     delay: 3000
   },
-  navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
-  },
+  // navigation: {
+  //   nextEl: '.swiper-button-next',
+  //   prevEl: '.swiper-button-prev',
+  // },
 })
 
 
@@ -177,3 +179,8 @@ new Swiper('.all-testimonial', {
 //     this.style.transform = 'translateY(0) scale(1)';
 //   });
 // });
+
+// venobox
+new VenoBox({
+  selector: ".my-image-link"
+});
