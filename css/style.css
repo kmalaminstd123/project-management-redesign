@@ -75,6 +75,7 @@ body {
   color: #fff;
   position: relative;
   transition: all 0.4s linear;
+  overflow: hidden;
 }
 
 .myBtn:hover {
@@ -104,6 +105,10 @@ body {
 
 .navbar-toggler{
   background-color: #fff;
+}
+
+p{
+  font-size: 16px;
 }
 
 /*global css end*/
@@ -342,11 +347,16 @@ body {
 .nav-cont-btn {
   background-color: var(--primary-color);
   color: #fff;
+  overflow: hidden;
 }
 
 .nav-cont-btn:hover {
   color: #fff;
   background-color: var(--primary-color);
+}
+
+.nav-cont-btn::before{
+  display: none;
 }
 
 .main-nav .nav-link {
@@ -1185,7 +1195,7 @@ body {
 
 .about_sum_cont p {
   color: var(--dark-gray);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.8;
   max-width: 900px;
   margin: 0 auto;
@@ -1453,7 +1463,8 @@ body {
 }
 
 .pres-talk p {
-  text-align: justify;
+  text-align: center;
+  font-size: 16px;
 
 }
 
@@ -1481,7 +1492,7 @@ body {
 
 .cta-description {
   color: var(--dark-gray);
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 40px;
   max-width: 600px;
   margin-left: auto;
@@ -1489,11 +1500,11 @@ body {
 }
 
 .cta-btn {
-  /* background: var(--primary-color); */
+  background: var(--primary-color);
   background-color: var(--secondery-color);
   color: var(--white);
   border: 2px solid var(--primary-color);
-  padding: 15px 40px;
+  padding: 15px 30px;
   border-radius: 30px;
   font-size: 18px;
   font-weight: 600;
@@ -1504,7 +1515,7 @@ body {
 
 .cta-btn:hover {
   background: var(--light-gray);
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
   transform: translateY(-3px);
   box-shadow: 0 10px 25px rgba(192, 33, 46, 0.3);
   border: 2px solid var(--secondery-color);
@@ -2451,9 +2462,9 @@ html {
 
 /* Hero */
 .iapmc-hero {
-  background: var(--secondery-color);
+  background: var(--primary-color);
   color: var(--white);
-  padding: 100px 0;
+  padding: var(--section-space);
   text-align: center;
 }
 
@@ -2478,16 +2489,20 @@ html {
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
+  background-color: var(--secondery-color);
+  border: 2px solid var(--secondery-color);
 }
 
 .iapmc-btn:hover {
   background: #a81824;
   color: var(--white);
+  border: 2px solid var(--secondery-color);
 }
 
 /* Opportunity */
 .iapmc-opportunity {
-  padding: 60px 0;
+  padding: var(--section-space);
+  background-color: var(--secondery-color);
 }
 
 .iapmc-opportunity h2 {
@@ -2503,8 +2518,9 @@ html {
 
 /* Benefits */
 .iapmc-benefits {
-  padding: 60px 0;
+  padding: var(--section-space);
   background: var(--white);
+  background-color: var(--primary-color);
 }
 
 .iapmc-benefits h2 {
@@ -2533,7 +2549,8 @@ html {
 
 /* Process */
 .iapmc-process {
-  padding: 60px 0;
+  padding: var(--section-space);
+  background-color: var(--secondery-color);
 }
 
 .iapmc-process h2 {
@@ -2557,13 +2574,29 @@ html {
 
 /* CTA */
 .iapmc-cta {
-  padding: 60px 0;
-  background: var(--white);
+  background-color: var(--primary-color);
+  padding: var(--section-space);
+  /* background: var(--white); */
   text-align: center;
 }
 
 .iapmc-cta h2 {
-  color: var(--secondery-color);
+  /* color: var(--secondery-color); */
+  color: var(--light-gray);
+}
+
+.iapmc-cta p{
+  color: var(--light-gray);
+}
+
+.app-iapmc-ctn{
+  border: 2px solid var(--secondery-color);
+  background-color: var(--secondery-color);
+  color: #fff;
+}
+
+.app-iapmc-ctn:hover{
+  border: 2px solid var(--secondery-color);
 }
 
 /* ================ benefit credential page end ================ */
