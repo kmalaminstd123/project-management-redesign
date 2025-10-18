@@ -180,7 +180,3 @@ new Swiper('.all-testimonial', {
 //   });
 // });
 
-// venobox
-new VenoBox({
-  selector: ".my-image-link"
-});
