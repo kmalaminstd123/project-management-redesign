@@ -335,13 +335,13 @@ p{
 }
 
 .brand-logo {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: auto;
 }
 
 .brand-logo img {
   height: 100%;
-  width: 100%;
+  width: auto;
 }
 
 .nav-cont-btn {
@@ -2611,7 +2611,8 @@ footer {
 }
 
 .footer-logo {
-  width: 100px;
+  height: 60px;
+  width: auto;
   margin-bottom: 10px;
 }
 
