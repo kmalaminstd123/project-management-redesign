@@ -1629,7 +1629,7 @@ html {
 
 .cred_course_card:hover {
   /* transform: translateY(-15px); */
-  box-shadow: 0 25px 50px var(--shadow-medium);
+  /* box-shadow: 0 25px 50px var(--shadow-medium); */
 }
 
 .cred_course_card::before {
@@ -1672,8 +1672,8 @@ html {
 }
 
 .cred_course_card img {
-  max-width: 120px;
-  max-height: 120px;
+  max-width: 190px;
+  max-height: 160px;
   width: auto;
   height: auto;
   object-fit: contain;
@@ -1681,9 +1681,9 @@ html {
   transition: all 0.4s ease;
 }
 
-.cred_course_card:hover img {
+/* .cred_course_card:hover img {
   transform: scale(1.1) rotate(5deg);
-}
+} */
 
 .card-content-section {
   padding: 35px;
